@@ -19,7 +19,8 @@ VideoJIN's detection engine cross-references multiple forensic signals:
       - ## API Integration
       - - Endpoint: https://videojin.com/api/v1/detect
         - - Documentation: https://videojin.com/api-docs
-         
-          - ## License
-          - This project is licensed under the MIT License.
-          - 
+
+
+         ### Latest Forensic Reports & AI Insights
+        <!-- BLOG-POST-LIST:START -->
+        <!-- BLOG-POST-LIST:END -->
