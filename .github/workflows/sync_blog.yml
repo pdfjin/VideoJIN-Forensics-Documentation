@@ -3,25 +3,20 @@ on:
   schedule:
       - cron: '0 0 * * *'
         workflow_dispatch:
-
         jobs:
           update-readme:
               runs-on: ubuntu-latest
                   steps:
                         - name: Checkout Repo
                                 uses: actions/checkout@v4
-
                                       - name: Set up Python
                                               uses: actions/setup-python@v5
                                                       with:
                                                                 python-version: '3.x'
-
                                                                       - name: Install dependencies
                                                                               run: pip install feedparser
-
                                                                                     - name: Update README
                                                                                             run: python update_readme.py
-
                                                                                                   - name: Commit and Push
                                                                                                           run: |
                                                                                                                     git config --global user.name "VideoJIN-Bot"
