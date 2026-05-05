@@ -11,15 +11,15 @@ Our mission is to restore digital trust by providing state-of-the-art forensic t
 
 ## Technical Stack
 VideoJIN's detection engine cross-references multiple forensic signals:
-* Error Level Analysis (ELA)
-* * Temporal Transformers (Swin)
-  * * Frequency Analysis
-    * * Consensus Logic
+- Error Level Analysis (ELA)
+- - Temporal Transformers (Swin)
+  - - Frequency Analysis
+    - - Consensus Logic
      
-      * ## API Integration
-      * * Endpoint: https://videojin.com/api/v1/detect
-        * * Documentation: https://videojin.com/api-docs
+      - ## API Integration
+      - - Endpoint: https://videojin.com/api/v1/detect
+        - - Documentation: https://videojin.com/api-docs
          
-          * ## License
-          * This project is licensed under the MIT License.
-          * 
+          - ## License
+          - This project is licensed under the MIT License.
+          - 
